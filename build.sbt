@@ -4,11 +4,11 @@ version := "0.4.0"
 
 organization := "org.scala-ide"
 
-scalaVersion := "2.10.3"
+scalaVersion := "2.10.4"
 
 publishMavenStyle := true
 
-publishTo := Some("Typesafe IDE" at "https://private-repo.typesafe.com/typesafe/ide-2.10")
+// publishTo := Some("Typesafe IDE" at "https://private-repo.typesafe.com/typesafe/ide-2.10")
 //publishTo := Some(Resolver.file("file",  new File(Path.userHome.absolutePath+"/.m2/repository")))
 
 credentials += Credentials(Path.userHome / ".credentials")
